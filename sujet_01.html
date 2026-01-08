@@ -114,7 +114,7 @@
         function calculate() {
 
             let input = document.getElementById("number").value;
-            let isNum = /^\d+$/.test(input);
+            let isNum = /^\d+$/.test(input); // teste si tous les caractères sont des nombres
             let n = parseInt(input);
 
             if (isNum === false || Number.isInteger(n) == false || n < 1 || n > 100) {
